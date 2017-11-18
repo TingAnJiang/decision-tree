@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1494943099995.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2FB7B7D7",
+    "lastKnownWriteTime" : 7813590796663464571,
+    "last_content_update" : 1494943099995,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "m684nvydc2",
+        "caption" : "data_test",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=data_test&cache_key=m684nvydc2",
+        "displayedObservations" : 178,
+        "environment" : "",
+        "object" : "data_test",
+        "totalObservations" : 178,
+        "variables" : 12
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Viridis Demo\"\noutput: html_document\n---\n\n```{r include = FALSE}\nlibrary(viridis)\n```\n\nThe code below demonstrates two color palettes in the [viridis](https://github.com/sjmgarnier/viridis) package. Each plot displays a contour map of the Maunga Whau volcano in Auckland, New Zealand.\n\n## Viridis colors\n\n```{r}\nimage(volcano, col = viridis(200))\n```\n\n## Magma colors\n\n```{r}\nimage(volcano, col = viridis(200, option = \"A\"))\n```\n",
+    "created" : 1494733982340.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2080752600",
+    "id" : "F821BF7B",
+    "lastKnownWriteTime" : 1494736712,
+    "last_content_update" : 1494736712597,
+    "path" : "C:/Users/anne_2/Downloads/1-example.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "docOutlineVisible" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
