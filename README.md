@@ -20,18 +20,18 @@
 ID3在建構決策樹過程中，以資訊獲利(Information Gain)為準則，並選擇最大的資訊獲利值作為分類屬性。[以下例子說明請參考此](https://read01.com/7K8yE3.html#.WZu8Tz4jHIU)
 
 entropy公式：
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/entropy.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy.JPG)
 
 Information Gain 公式：
 ![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/Information Gain.JPG)
 
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/ID3-1.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/ID3-2.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/ID3-3.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/ID3-4.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/ID3-5.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/ID3-6.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/ID3-7.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/ID3-1.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/ID3-2.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/ID3-3.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/ID3-4.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/ID3-5.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/ID3-6.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/ID3-7.JPG)
 
 -----------------------------------------------------------------------------
 
@@ -40,13 +40,13 @@ Information Gain 公式：
 C4.5是ID3的升級版，C4.5演算法利用屬性的獲利比率(Gain Ratio)克服問題。
 
 Gain Ratio公式:
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/gain ratio.JPG)
-；![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/split1.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/gain ratio.JPG)
+；![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/split1.JPG)
 
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/C4.5-1.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/C4.5-2.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/C4.5-3.JPG)
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/C4.5-4.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/C4.5-1.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/C4.5-2.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/C4.5-3.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/C4.5-4.JPG)
 
 -----------------------------------------------------------------------------
 
@@ -58,27 +58,27 @@ Gain Ratio公式:
 
 (ps. Gini index 亦指 impurity)
 
-Gini index公式：![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/gini index.JPG)
+Gini index公式：![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/gini index.JPG)
 
-Gini gain公式：![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/Gini gain.JPG)
+Gini gain公式：![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/Gini gain.JPG)
 
 Example：
 
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/CART-1.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/CART-1.JPG)
 
 在上述圖中，屬性有3個，分別是有房情況，婚姻狀況和年收入，其中有房情況和婚姻狀況是離散的取值，而年收入是連續的取值。拖欠貸款者屬於分類的結果。
 
 假設現在來看有房情況這個屬性，那麼按照它劃分後的Gini指數計算如下
 
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/CART-2.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/CART-2.JPG)
 
 而對於婚姻狀況屬性來說，它的取值有3種，按照每種屬性值分裂後Gini指標計算如下
 
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/CART-3.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/CART-3.JPG)
 
 最後還有一個取值連續的屬性，年收入，它的取值是連續的，那麼連續的取值採用分裂點進行分裂。如下
 
-![](D:/R project/Statistical ML lab (NCCU)/dicision tree for discuss/entropy/CART-4.JPG)
+![](C:/Users/anne_2/Documents/GitHub/decision-tree/entropy/CART-4.JPG)
 
 根據這樣的分裂規則CART算法就能完成建樹過程。
 
@@ -233,7 +233,7 @@ table(data_test$Survived, pre_C45)
 
 * [决策树-剪枝算法](http://www.cnblogs.com/starfire86/p/5749334.html)
 
-* [決策樹分析 簡禎富講座教授](file:///C:/Users/anne_2/Downloads/%E7%B0%A1%E7%A6%8E%E5%AF%8C%E8%80%81%E5%B8%ABCh04%20%E6%B1%BA%E7%AD%96%E6%A8%B9%E5%88%86%E6%9E%90.pdf)
+* [決策樹分析 簡禎富講座教授](file:///C:/Users/anne_2/Documents/GitHub/decision-tree/%E7%B0%A1%E7%A6%8E%E5%AF%8C%E8%80%81%E5%B8%ABCh04%20%E6%B1%BA%E7%AD%96%E6%A8%B9%E5%88%86%E6%9E%90.pdf)
 
 * [决策树C4.5算法里的后剪枝](http://www.plsyard.com/post-pruning-in-c45/)
 
