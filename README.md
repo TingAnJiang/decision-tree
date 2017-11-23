@@ -40,7 +40,7 @@ Information Gain 公式：
 C4.5是ID3的升級版，C4.5演算法利用屬性的獲利比率(Gain Ratio)克服問題。
 
 Gain Ratio公式:
-![](https://github.com/TingAnJiang/decision-tree/blob/master/entropy/gain ratio.JPG)
+![](https://github.com/TingAnJiang/decision-tree/blob/master/entropy/gain%20ratio.JPG)
 ；![](https://github.com/TingAnJiang/decision-tree/blob/master/entropy/split1.JPG)
 
 ![](https://github.com/TingAnJiang/decision-tree/blob/master/entropy/C4.5-1.JPG)
